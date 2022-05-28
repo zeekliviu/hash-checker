@@ -101,21 +101,21 @@ require '/usr/share/php/libphp-phpmailer/src/SMTP.php';
 
 \$email->SMTPSecure = 'ssl';
 
-\$email->Host = \"smtp.hostinger.com\";
+\$email->Host = \"smtp.address.com\";
 
 \$email->Port = 465;
 
 //Set the gmail address that will be used for sending email
 
-\$email->Username = \"md5sumalert@zethenterprises.com\";
+\$email->Username = \"Username\";
 
 //Set the valid password for the gmail address
 
-\$email->Password = \"md5sumalert3Baza0701?!\";
+\$email->Password = \"PasswordOfTheMail\";
 
 //Set the sender email address
 
-\$email->SetFrom(\"md5sumalert@zethenterprises.com\");
+\$email->SetFrom(\"MailToSendFrom@Domain.com\");
 
 //Set the receiver email address
 
